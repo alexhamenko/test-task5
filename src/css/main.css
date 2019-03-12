@@ -1,0 +1,91 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+margin: 0 auto;
+width: 1024px;
+font-family: 'Lato', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+header a {
+    font-size: 18px;
+    border: 2px solid #261c5f;
+    text-decoration: none;
+    border-radius: 35px;
+    padding: 13px 25px;
+}
+main .solution {
+    text-align: center;
+    width: 765px;
+    margin: 0 auto;
+    margin-bottom: 85px;
+}
+main .solution h1 {
+    margin-top: 28px;
+    margin-bottom: 44px;
+    font-size: 36px;
+    color: #191919;
+    line-height: 0.052;   
+}
+main .solution p {
+    font-size: 14px;
+    line-height: 2;
+    color: #191919;   
+}
+main .slider-container {
+    display: flex;
+    justify-content: space-between;
+}
+main .slider-container .slider h2{
+    font-size: 20px;
+    margin-top: 27px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+main .slider-container .slider p{
+    font-size: 14px;
+    text-align: center;
+}
+main .cite{
+    width: 636px;
+    margin: 0 auto;
+    background-color: #ccc;
+    background-image: -ms-linear-gradient( 0deg, rgb(10,31,109) 0%, rgb(11,32,109) 32%, rgb(250,86,2) 73%, rgb(250,84,0) 100%);
+}
+main .cite h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 44px;
+    margin-bottom: 21px;
+}
+main .cite p{
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 31px;
+}
+main .articles-container {
+    display: flex;
+    flex-direction: column
+}
+main .articles-container h1 {
+    font-size: 26px;
+    margin-top: 147px;
+    margin-bottom: 107px;
+    text-align: center;
+}
+main .articles-container .article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 135px;
+}
+main .articles-container .article .text-container h2{
+    font-size: 20px;
+}
+main .articles-container .article .text-container p{
+    font-size: 14px;
+}
