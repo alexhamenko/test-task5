@@ -52,21 +52,29 @@ main .slider-container .slider p{
     text-align: center;
 }
 main .cite{
+    background: linear-gradient(to right, #0a1f6e, #fa5400);
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 100px;
+    margin-top: 100px;
+    left: 50%;
+    height: 155px;
+}
+main .cite .cite-wrapper{
+    padding-top: 34px;
     width: 636px;
     margin: 0 auto;
-    background-color: #ccc;
-    background-image: -ms-linear-gradient( 0deg, rgb(10,31,109) 0%, rgb(11,32,109) 32%, rgb(250,86,2) 73%, rgb(250,84,0) 100%);
+    color: #fff;
 }
-main .cite h2{
+main .cite .cite-wrapper h2{
     text-align: center;
     font-size: 20px;
-    margin-top: 44px;
     margin-bottom: 21px;
 }
-main .cite p{
+main .cite .cite-wrapper p{
     text-align: right;
     font-size: 14px;
-    margin-bottom: 31px;
 }
 main .articles-container {
     display: flex;
@@ -85,7 +93,21 @@ main .articles-container .article {
 }
 main .articles-container .article .text-container h2{
     font-size: 20px;
+    margin: 0;
+    margin-bottom: 44px;
 }
 main .articles-container .article .text-container p{
     font-size: 14px;
+    line-height: 2;
 }
+main .articles-container .article1 .text-container{
+    margin-right: 50px;
+}
+main .articles-container .article2 .text-container{
+    margin-left: 50px;
+}
+main .articles-container .article3 .text-container{
+    margin-right: 50px;
+}
+
+
